@@ -93,7 +93,7 @@ const io = new IntersectionObserver((entries) => {
 }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
 
 document
-  .querySelectorAll('.reveal, .section-head, .process-step, .impact-card')
+  .querySelectorAll('.reveal, .section-head, .impact-card, .video-placeholder')
   .forEach((el) => {
     el.classList.add('reveal');
     io.observe(el);

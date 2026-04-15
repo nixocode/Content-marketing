@@ -639,3 +639,25 @@ a { color: inherit; text-decoration: none; }
   .reveal { opacity: 1; transform: none; }
   .hero-bg { transform: none; filter: none; }
 }
+
+/* ---------- Video placeholders ---------- */
+.video-placeholder {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+.video-placeholder .video-placeholder-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--accent-neutral, #d4dbe5);
+  opacity: 0.55;
+  font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.video-placeholder:hover .video-placeholder-inner { opacity: 0.85; }
