@@ -2,7 +2,7 @@
 
 const BASE = import.meta.env.BASE_URL;
 
-const POSTS   = Array.from({ length: 17 }, (_, i) => `post-${String(i + 1).padStart(2, '0')}.jpg`);
+const POSTS   = Array.from({ length: 16 }, (_, i) => `post-${String(i + 1).padStart(2, '0')}.jpg`);
 const STORIES = Array.from({ length: 15 }, (_, i) => `story-${String(i + 1).padStart(2, '0')}.jpg`);
 
 // ---------- Render tiles ----------
