@@ -4,3 +4,8 @@ dist-ssr
 *.local
 .DS_Store
 *.log
+
+# Local environment files: API keys never belong in git
+.env
+.env.*
+!.env.example
